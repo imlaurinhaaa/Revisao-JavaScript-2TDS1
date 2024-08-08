@@ -12,5 +12,8 @@ hamburger.push(carnes[0]);
 hamburger.push(queijos[2]);
 
 for(let i= 0; i < hamburger.length; i++ ) {
+    if(hamburger[i] == hamburger[0] && hamburger[i] == paes[1]){
+        console.log(":uau baum");
+    }
     console.log(hamburger[i]);
 }

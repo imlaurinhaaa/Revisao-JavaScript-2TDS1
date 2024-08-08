@@ -31,3 +31,7 @@ Uma lanchonete modernizou o seu sistema de pedidos! Agora, os clientes montam se
 - Queijo: queijos[2] (Prato)
 
 Utilize console.log() para exibir os ingredientes do hambúrguer no terminal, um em cada linha.
+
+## Atividade 06
+
+Em um futuro distante, robôs gigantes batalham em arenas pelo entretenimento das multidões! Você é o programador responsável por controlar o arsenal de um desses robôs. Crie um array chamado armas contendo pelo menos 5 tipos de armas (strings), como "Laser", "Mísseis", etc. Crie um array chamado ataques que inicialmente estará vazio. Este array representará a sequência de ataques que seu robô irá realizar. Adicione a ordem dos ataques ao array, usando os índices do array armas. Exiba no console a sequência de ataques do seu robô, um por linha, prefixando cada ataque com "Ataque [número do ataque]:".
