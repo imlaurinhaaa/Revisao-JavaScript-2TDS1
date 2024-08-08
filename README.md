@@ -35,3 +35,16 @@ Utilize console.log() para exibir os ingredientes do hambúrguer no terminal, 
 ## Atividade 06
 
 Em um futuro distante, robôs gigantes batalham em arenas pelo entretenimento das multidões! Você é o programador responsável por controlar o arsenal de um desses robôs. Crie um array chamado armas contendo pelo menos 5 tipos de armas (strings), como "Laser", "Mísseis", etc. Crie um array chamado ataques que inicialmente estará vazio. Este array representará a sequência de ataques que seu robô irá realizar. Adicione a ordem dos ataques ao array, usando os índices do array armas. Exiba no console a sequência de ataques do seu robô, um por linha, prefixando cada ataque com "Ataque [número do ataque]:".
+
+## Atividade 07
+
+Um leitor apaixonado por livros definiu uma meta de ler um certo número de livros por mês. Você precisa criar um programa que o ajude a acompanhar seu progresso e verificar se ele atingiu sua meta.
+Definir a Meta: Crie uma variável chamada metaLivros e defina a meta de leitura mensal (número inteiro).
+Registrar os Livros Lidos:Crie um array chamado livrosLidos e preencha-o com os nomes (strings) dos livros que o leitor já leu no mês atual.
+Analisar o Progresso:
+
+- Utilize um laço de repetição for para percorrer o array livrosLidos e exibir no console o nome de cada livro lido.
+- Após o loop, utilize uma estrutura de decisão if para verificar se a quantidade de livros lidos (livrosLidos.length) atingiu ou ultrapassou a metaLivros.
+- Exiba no console a mensagem apropriada:
+    - Meta Atingida: "Parabéns! Você atingiu sua meta de leitura!"
+    - Meta Não Atingida: "Você está progredindo! Faltam "quantidade" livros para atingir sua meta."
